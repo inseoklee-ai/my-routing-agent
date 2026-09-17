@@ -18,9 +18,10 @@ import context
 import prompts
 import usage
 
-# 프로젝트 전용 .env 대신, 여러 프로젝트가 공유하는 상위 키 파일을 사용한다.
-# (이 파일은 my-routing-agent 저장소 밖에 있으므로 git에 올라가지 않는다.)
-load_dotenv(Path(__file__).resolve().parent.parent / "keys.env")
+# 저장소 루트의 .env에서 OPENAI_API_KEY를 읽는다 (.env는 .gitignore에 등록되어
+# git에는 올라가지 않는다 — 누구든 이 저장소를 받으면 .env.example을 .env로 복사해
+# 자기 키를 넣으면 된다).
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 MODEL_NAME = "gpt-4o-mini"
 # 검증(verify) 단계는 "정직하게 모른다고 말한 것"과 "지어낸 것"을 구분해야 하는데,

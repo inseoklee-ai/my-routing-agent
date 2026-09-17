@@ -8,7 +8,7 @@
 
 ```bash
 pip install -r requirements.txt
-# OPENAI_API_KEY를 환경변수 또는 .env 파일로 설정
+cp .env.example .env    # .env를 열어 OPENAI_API_KEY를 본인 키로 채운다
 
 python context.py       # 근거 문서가 카테고리별로 잘 쪼개지는지 확인
 python evaluate.py      # 평가셋 16건으로 도구 호출 적절성·답변 적절성 측정
