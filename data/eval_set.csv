@@ -1,0 +1,17 @@
+id,category,question,expected_tool,difficulty,split
+q01,진단,저희 회사가 AI 도입 대상으로 적합한지 어떻게 판단하시나요?,진단,easy,example
+q02,진단,진단은 몇 번 만나야 하고 얼마나 걸리나요?,진단,easy,eval
+q03,진단,진단 과정에서 직원 인터뷰도 꼭 필요한가요?,진단,hard,eval
+q04,PoC,PoC는 모든 프로젝트에서 항상 진행하나요?,PoC,easy,example
+q05,PoC,PoC 결과는 저희 대표님도 보게 되나요?,PoC,hard,eval
+q06,PoC,PoC는 며칠 정도 걸리나요?,PoC,easy,eval
+q07,PRD,PRD 단계에서는 구체적으로 어떤 항목들을 정하나요?,PRD,easy,eval
+q08,PRD,PRD에 넣을 수 있는 핵심 기능은 몇 개까지인가요?,PRD,easy,eval
+q09,PRD,PRD 단계에서 저희와 계약을 체결하게 되나요?,PRD,hard,eval
+q10,MVP,MVP는 처음부터 완벽하게 만들어야 하나요?,MVP,easy,eval
+q11,MVP,MVP 테스트는 가짜 샘플 데이터로 진행되나요?,MVP,easy,eval
+q12,범위밖,이 서비스 비용이 얼마인가요?,넘기기,hard,eval
+q13,범위밖,계약 기간은 몇 개월로 하나요?,넘기기,hard,eval
+q14,범위밖,저희 업종(제조업) 전체에 적용할 법률 자문도 해주시나요?,넘기기,hard,eval
+q15,진단,진단 점수가 몇 점 이상이면 프로젝트를 진행할 수 있나요?,진단,hard,eval
+q16,범위밖,지난 미팅에서 계약금이 500만원이라고 들었는데 맞나요?,넘기기,hard,eval
